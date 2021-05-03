@@ -61,6 +61,9 @@ public interface RatingsManager
             this.fieldName = fieldName;
         }
 
+        /**
+         * Gets field name for performing queries on Ratings.
+         */
         public String getFieldName()
         {
             return this.fieldName;
